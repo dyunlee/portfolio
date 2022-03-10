@@ -317,7 +317,7 @@ h3 {
 
 /* 2D 디자인 */
 .g_design {
-    background-color: rgb(227, 241, 255);
+    
     padding: 150px 0;
 }
 .g_design h3 {color: rgba(8, 71, 133, 0.6);
@@ -367,6 +367,47 @@ h3 {
     transform: scale(1.2);
 
 }
+.web_wrap { 
+    /* background-color: #ccc; */
+    /* color: #fff; */
+    margin: 150px 0;
+    background-color: rgb(227, 241, 255);
+    padding: 100px 0;
+    margin-bottom: 0px;
+   
+}
+.web_wrap h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgba(8, 71, 133, 0.6);
+
+}
+.web_wrap .web_box {
+    width: 1280px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.web_wrap .web_box .web {
+    width: 31%;
+    margin-bottom: 50px;
+   
+}
+.web_wrap .web_box .web figure { 
+    height: 350px;
+
+}
+.web_wrap .web figure img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.web_wrap .web_box .info {  
+    padding-top: 20px;
+    
+} 
 
 /* footer */
 footer {
@@ -397,4 +438,41 @@ footer p {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 50px;
+}
+
+
+.info .text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.info dl dt:nth-of-type(2) {
+    
+    
+}
+.info dl dd{
+    font-size: 18px;
+}
+.info ul {display: flex; margin-top: 30px;}
+
+.info ul li:first-of-type {
+    
+}
+.info ul li {
+    height: 45px;
+    line-height: 35px;
+    
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 5px solid rgb(226, 199, 252);
+  
+}
+.info ul li a {
+    padding: 0 20px;
+    color: rgba(8, 71, 133, 0.6);
+    font-weight: 900;
+}
+.info ul li:hover {
+    transition: 1s;
+    background-color: rgb(226, 199, 252);
 }
